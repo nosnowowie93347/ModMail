@@ -9,7 +9,7 @@ const getUtils = () => require('../utils');
 const access = promisify(fs.access);
 const readFile = promisify(fs.readFile);
 
-const attachmentDir = config.attachmentDir || `${__dirname}/../../attachments`;
+const attachmentDir = config.attachmentDir || `../../attachments`;
 
 const attachmentSavePromises = {};
 
